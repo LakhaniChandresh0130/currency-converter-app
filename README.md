@@ -14,18 +14,6 @@ A full-stack Flutter application to convert currencies using real-time exchange 
 - **Secure Backend**: Built with Node.js and Express.js
 - **Modern Frontend**: Built in Flutter with clean UI
 
-### 🏗️ System Architecture
-
-```mermaid
-flowchart LR
-    A[Flutter App] --> B[Node.js + Express Backend]
-    B --> C[Authentication Module]
-    B --> D[Currency Rate Fetch API]
-    C --> E[MongoDB]
-    D --> F[External Currency API (e.g. exchangeratesapi.io)]
-```
-
----
 
 ## 🧩 Tech Stack
 
